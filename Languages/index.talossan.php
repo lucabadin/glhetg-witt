@@ -22,8 +22,8 @@ $txt['lang_capitalize_dates'] = true;
 $txt['days'] = array('Súladi', 'Lúneçi', 'Maitzi', 'Márcuri', 'Xhúadi', 'Viénerçi', 'Sáturi');
 $txt['days_short'] = array('Sul', 'Lun', 'Mtz', 'Mar', 'Xhu', 'Vie', 'Sat');
 // Months must start with 1 => 'January'. (or translated, of course.)
-$txt['months'] = array(1 => 'Januar', 'Schevraglh', 'Març', 'Avríu', 'Mai', 'Gün', 'Juliă', 'Guscht', 'Setemvar', 'Listopäts', 'Noemvar', 'Zecemvar');
-$txt['months_titles'] = array(1 => 'Januar', 'Schevraglh', 'Març', 'Avríu', 'Mai', 'Gün', 'Juliă', 'Guscht', 'Setemvar', 'Listopäts', 'Noemvar', 'Zecemvar');
+$txt['months'] = array(1 => 'Januar', 'Schevraglh', 'Març', 'Avrïu', 'Mai', 'Gün', 'Juliă', 'Guscht', 'Setemvar', 'Listopäts', 'Noemvar', 'Zecemvar');
+$txt['months_titles'] = array(1 => 'Januar', 'Schevraglh', 'Març', 'Avrïu', 'Mai', 'Gün', 'Juliă', 'Guscht', 'Setemvar', 'Listopäts', 'Noemvar', 'Zecemvar');
 $txt['months_short'] = array(1 => 'Jan', 'Sch', 'Mar', 'Avr', 'Mai', 'Gün', 'Jul', 'Gus', 'Set', 'Lis', 'Noe', 'Zec');
 
 $txt['time_am'] = 'd\'avant';
@@ -105,82 +105,82 @@ $txt['last_post'] = 'Post pü recent';
 $txt['admin_login'] = 'Login d\'aðmistraziun';
 // Use numeric entities in the below string.
 $txt['topic'] = 'Topic';
-$txt['help'] = 'Help';
-$txt['notify'] = 'Notify';
-$txt['unnotify'] = 'Unnotify';
-$txt['notify_request'] = 'Do you want a notification email if someone replies to this topic?';
+$txt['help'] = 'Aßistançéu';
+$txt['notify'] = 'Avisar';
+$txt['unnotify'] = 'Inavisar';
+$txt['notify_request'] = '¿Veletz-voi ün telepost avisind schi quálseviens rezïa à\'cest topic?';
 // Use numeric entities in the below string.
-$txt['regards_team'] = 'Regards,' . "\n" . 'The ' . $context['forum_name'] . ' Team.';
-$txt['notify_replies'] = 'Notify of replies';
-$txt['move_topic'] = 'Move Topic';
-$txt['move_to'] = 'Move to';
-$txt['pages'] = 'Pages';
-$txt['users_active'] = 'Users active in past %1$d minutes';
-$txt['personal_messages'] = 'Personal Messages';
-$txt['reply_quote'] = 'Reply with quote';
-$txt['reply'] = 'Reply';
-$txt['reply_noun'] = 'Reply';
-$txt['approve'] = 'Approve';
-$txt['approve_all'] = 'approve all';
-$txt['awaiting_approval'] = 'Awaiting Approval';
-$txt['attach_awaiting_approve'] = 'Attachments awaiting approval';
-$txt['post_awaiting_approval'] = 'Note: This message is awaiting approval by a moderator.';
-$txt['there_are_unapproved_topics'] = 'There are %1$s topics and %2$s posts awaiting approval in this board. Click <a href="%3$s">here</a> to view them all.';
+$txt['regards_team'] = 'Corxhalmint,' . "\n" . 'l\'esqipa da ' . $context['forum_name'] . '.';
+$txt['notify_replies'] = 'Avisar da contestăs';
+$txt['move_topic'] = 'Movar topic';
+$txt['move_to'] = 'Movar à';
+$txt['pages'] = 'Páxhinăs';
+$txt['users_active'] = 'Uçeirs actïus in els %1$d míuts paßats';
+$txt['personal_messages'] = 'Mensatxen perziunais';
+$txt['reply_quote'] = 'Rezirar cün quotaziun';
+$txt['reply'] = 'Rezirar';
+$txt['reply_noun'] = 'Rezirar';
+$txt['approve'] = 'Aprovar';
+$txt['approve_all'] = 'aprovar toct';
+$txt['awaiting_approval'] = 'Aschteptind approval';
+$txt['attach_awaiting_approve'] = 'Estacadăs aaschteptinds approval';
+$txt['post_awaiting_approval'] = 'Aviß: Acest mensatx aschtepta l\'approval par ün admod.';
+$txt['there_are_unapproved_topics'] = 'J\'ont %1$s topici es %2$s posts qi aschteptent l\'approval in acest scumpart. Clichetz <a href="%3$s">aicì</a> à vidar toct da ça.';
 
-$txt['msg_alert_none'] = 'No messages...';
-$txt['msg_alert_you_have'] = 'you have';
-$txt['msg_alert_messages'] = 'messages';
-$txt['remove_message'] = 'Remove this message';
+$txt['msg_alert_none'] = 'Aucün mensatxen...';
+$txt['msg_alert_you_have'] = 'voi tenetz';
+$txt['msg_alert_messages'] = 'mensatxen';
+$txt['remove_message'] = 'Removar acest mensatx';
 
-$txt['online_users'] = 'Users Online';
-$txt['personal_message'] = 'Personal Message';
-$txt['jump_to'] = 'Jump to';
-$txt['go'] = 'go';
-$txt['are_sure_remove_topic'] = 'Are you sure you want to remove this topic?';
-$txt['yes'] = 'Yes';
-$txt['no'] = 'No';
+$txt['online_users'] = 'Uçeirs sürlignhă';
+$txt['personal_message'] = 'Mensatx perziunal';
+$txt['jump_to'] = 'Xhempar à';
+$txt['go'] = 'ir';
+$txt['are_sure_remove_topic'] = '¿Estetz-voi sigür qe voi veletz removar acest topic?';
+$txt['yes'] = 'Üc';
+$txt['no'] = 'Non';
 
-$txt['search_end_results'] = 'End of results';
-$txt['search_on'] = 'on';
+$txt['search_end_results'] = 'Fim dals resultaes';
+$txt['search_on'] = 'sür';
 
-$txt['search'] = 'Search';
-$txt['all'] = 'All';
+$txt['search'] = 'Çerçar';
+$txt['all'] = 'Toct';
 
-$txt['back'] = 'Back';
-$txt['password_reminder'] = 'Password reminder';
-$txt['topic_started'] = 'Topic started by';
-$txt['title'] = 'Title';
-$txt['post_by'] = 'Post by';
-$txt['memberlist_searchable'] = 'Searchable list of all registered members.';
-$txt['welcome_member'] = 'Please welcome';
-$txt['admin_center'] = 'Administration Center';
-$txt['last_edit'] = 'Last Edit';
-$txt['notify_deactivate'] = 'Would you like to deactivate notification on this topic?';
+$txt['back'] = 'Rüc';
+$txt['password_reminder'] = 'Remeindeir da teßeră';
+$txt['topic_started'] = 'Topic començat par';
+$txt['title'] = 'Titlă';
+$txt['post_by'] = 'Post par';
+$txt['memberlist_searchable'] = 'List çerçaval da toct i membreux enrexhistrats';
+$txt['welcome_member'] = 'Sch\'o voi piaça, benvenetz-voi';
+$txt['admin_center'] = 'Centreu d\'aðmistraziun';
+$txt['last_edit'] = 'Redactaziun pü recent';
+$txt['notify_deactivate'] = '¿Veladretz-voi zisactivar dals avisaziuns sür acest topic?';
 
-$txt['recent_posts'] = 'Recent Posts';
+$txt['recent_posts'] = 'Posts recents';
 
-$txt['location'] = 'Location';
-$txt['gender'] = 'Gender';
-$txt['date_registered'] = 'Date Registered';
+$txt['location'] = 'Locazion';
+$txt['gender'] = 'Xhendreu';
+$txt['date_registered'] = 'Däts d\'anuntziă';
 
 $txt['recent_view'] = 'View the most recent posts on the forum.';
 $txt['recent_updated'] = 'is the most recently updated topic';
 
-$txt['male'] = 'Male';
-$txt['female'] = 'Female';
+$txt['male'] = 'Masleu';
+$txt['female'] = 'Femeglheu';
 
-$txt['error_invalid_characters_username'] = 'Invalid character used in Username.';
+$txt['error_invalid_characters_username'] = 'Caractréu ingültec\'h uçescu in codă da sámbånd.';
 
-$txt['welcome_guest'] = 'Welcome, <strong>%1$s</strong>. Please <a href="' . $scripturl . '?action=login">login</a> or <a href="' . $scripturl . '?action=register">register</a>.';
-$txt['login_or_register'] = 'Please <a href="' . $scripturl . '?action=login">login</a> or <a href="' . $scripturl . '?action=register">register</a>.';
-$txt['welcome_guest_activate'] = '<br />Did you miss your <a href="' . $scripturl . '?action=activate">activation email</a>?';
-$txt['hello_member'] = 'Hey,';
+$txt['welcome_guest'] = 'Benvenescu, <strong>%1$s</strong>. <a href="' . $scripturl . '?action=login">S\'anonçetz-voi</a> eda <a href="' . $scripturl . '?action=register">enrexhistretz-voi</a>, sch\'o voi piaça.';
+$txt['login_or_register'] = '<a href="' . $scripturl . '?action=login">S\'anonçetz-voi</a> eda <a href="' . $scripturl . '?action=register">enrexhistretz-voi</a>, sch\'o voi piaça.';
+$txt['welcome_guest_activate'] = '<br />¿Non reçaifevetz-voi voastra <a href="' . $scripturl . '?action=activate">telepost d\'enrexhistraziun</a>?';
+$txt['hello_member'] = 'Azul,';
 // Use numeric entities in the below string.
-$txt['hello_guest'] = 'Welcome,';
-$txt['welmsg_hey'] = 'Hey,';
-$txt['welmsg_welcome'] = 'Welcome,';
-$txt['welmsg_please'] = 'Please';
-$txt['select_destination'] = 'Please select a destination';
+$txt['hello_guest'] = 'Benvenescu,';
+$txt['welmsg_hey'] = 'Azul,';
+$txt['welmsg_welcome'] = 'Benvenescu,';
+$txt['welmsg_please'] = 'Sch\'o voi piaça,';
+$txt['select_destination'] = 'Selectetz-voi ün destinaçal, sch\'o voi piaça.';
 
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
 $txt['posted_by'] = 'Posted by';
