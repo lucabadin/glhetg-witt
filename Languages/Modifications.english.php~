@@ -1,0 +1,18 @@
+<?php
+// Version: 2.0; Modifications
+
+// Begin Auto Embed Media Pro Text Strings
+$txt['mediapro_admin'] = 'Simple Audio Video Embedder';
+$txt['mediapro_settings'] = 'Settings';
+$txt['mediapro_save_settings'] = 'Save Settings';
+$txt['mediapro_err_cache'] = 'Cache folder not writable must fix for performance!';
+$txt['mediapro_settings2'] = 'Settings and configuration for Simple Audio Video Embedder';
+$txt['mediapro_copyremove'] = 'Copyright Removal';
+$txt['mediapro_copyremove2'] = 'Remove the copyright for Simple Audio Video Embedder';
+// END Auto Embed Media Pro  Text Strings			
+
+	$txt['mentions'] = 'Mentions';
+	$txt['scheduled_task_removeMentions'] = 'Remove seen mentions';
+	$txt['scheduled_task_desc_removeMentions'] = 'Automatically removes seen mentions older than the specified days';
+	
+?>
