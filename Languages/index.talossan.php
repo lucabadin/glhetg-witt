@@ -123,7 +123,7 @@ $txt['reply_noun'] = 'Rezirar';
 $txt['approve'] = 'Aprovar';
 $txt['approve_all'] = 'aprovar toct';
 $txt['awaiting_approval'] = 'Aschteptind approval';
-$txt['attach_awaiting_approve'] = 'Estacadăs aaschteptinds approval';
+$txt['attach_awaiting_approve'] = 'Estacadăs aschteptinds approval';
 $txt['post_awaiting_approval'] = 'Aviß: Acest mensatx aschtepta l\'approval par ün admod.';
 $txt['there_are_unapproved_topics'] = 'J\'ont %1$s topici es %2$s posts qi aschteptent l\'approval in acest scumpart. Clichetz <a href="%3$s">aicì</a> à vidar toct da ça.';
 
