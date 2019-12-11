@@ -8,9 +8,9 @@ global $forum_copyright, $forum_version, $webmaster_email, $scripturl, $context,
 //   - http://www.php.net/function.pspell-new
 //   - http://www.php.net/function.setlocale
 // Again, SPELLING SHOULD BE '' 99% OF THE TIME!!  Please read this!
-$txt['lang_locale'] = 'en_US';
-$txt['lang_dictionary'] = 'en';
-$txt['lang_spelling'] = 'american';
+$txt['lang_locale'] = 'tzl_TZL';
+$txt['lang_dictionary'] = 'tzl';
+$txt['lang_spelling'] = '';
 
 // Ensure you remember to use uppercase for character set strings.
 $txt['lang_character_set'] = 'ISO-8859-1';
@@ -19,90 +19,90 @@ $txt['lang_rtl'] = false;
 // Capitalize day and month names?
 $txt['lang_capitalize_dates'] = true;
 
-$txt['days'] = array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
-$txt['days_short'] = array('Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat');
+$txt['days'] = array('Súladi', 'Lúneçi', 'Maitzi', 'Márcuri', 'Xhúadi', 'Viénerçi', 'Sáturi');
+$txt['days_short'] = array('Sul', 'Lun', 'Mtz', 'Mar', 'Xhu', 'Vie', 'Sat');
 // Months must start with 1 => 'January'. (or translated, of course.)
-$txt['months'] = array(1 => 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
-$txt['months_titles'] = array(1 => 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
-$txt['months_short'] = array(1 => 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec');
+$txt['months'] = array(1 => 'Januar', 'Schevraglh', 'Març', 'Avríu', 'Mai', 'Gün', 'Juliă', 'Guscht', 'Setemvar', 'Listopäts', 'Noemvar', 'Zecemvar');
+$txt['months_titles'] = array(1 => 'Januar', 'Schevraglh', 'Març', 'Avríu', 'Mai', 'Gün', 'Juliă', 'Guscht', 'Setemvar', 'Listopäts', 'Noemvar', 'Zecemvar');
+$txt['months_short'] = array(1 => 'Jan', 'Sch', 'Mar', 'Avr', 'Mai', 'Gün', 'Jul', 'Gus', 'Set', 'Lis', 'Noe', 'Zec');
 
-$txt['time_am'] = 'am';
-$txt['time_pm'] = 'pm';
+$txt['time_am'] = 'd\'avant';
+$txt['time_pm'] = 'd\'osprei';
 
-$txt['newmessages0'] = 'is new';
-$txt['newmessages1'] = 'are new';
-$txt['newmessages3'] = 'New';
+$txt['newmessages0'] = 'isch noveu';
+$txt['newmessages1'] = 'sint noveux';
+$txt['newmessages3'] = 'Noveu';
 $txt['newmessages4'] = ',';
 
-$txt['admin'] = 'Admin';
-$txt['moderate'] = 'Moderate';
+$txt['admin'] = 'Ädmin';
+$txt['moderate'] = 'Moderar';
 
-$txt['save'] = 'Save';
+$txt['save'] = 'Guardar';
 
-$txt['modify'] = 'Modify';
+$txt['modify'] = 'Modificar';
 $txt['forum_index'] = '%1$s - Index';
-$txt['members'] = 'Members';
-$txt['board_name'] = 'Board name';
+$txt['members'] = 'Membreux';
+$txt['board_name'] = 'Nómină del scumpart';
 $txt['posts'] = 'Posts';
 
 $txt['member_postcount'] = 'Posts';
-$txt['no_subject'] = '(No subject)';
-$txt['view_profile'] = 'View Profile';
-$txt['guest_title'] = 'Guest';
-$txt['author'] = 'Author';
-$txt['on'] = 'on';
-$txt['remove'] = 'Remove';
-$txt['start_new_topic'] = 'Start new topic';
+$txt['no_subject'] = '(Aucün subxhect)';
+$txt['view_profile'] = 'Risguardar profil';
+$txt['guest_title'] = 'Gäst';
+$txt['author'] = 'Auþor';
+$txt['on'] = 'sür';
+$txt['remove'] = 'Removar';
+$txt['start_new_topic'] = 'Començar noveu topic';
 
-$txt['login'] = 'Login';
+$txt['login'] = 'S\'anonçar';
 // Use numeric entities in the below string.
-$txt['username'] = 'Username';
-$txt['password'] = 'Password';
+$txt['username'] = 'Codă da sámbånd';
+$txt['password'] = 'Teßeră';
 
-$txt['username_no_exist'] = 'That username does not exist.';
-$txt['no_user_with_email'] = 'There are no usernames associated with that email.';
+$txt['username_no_exist'] = 'Această codă da sámbånd non exista.';
+$txt['no_user_with_email'] = 'Non j\'ont dals codăs da sámbånd aßoçiatadăs cün acest telepost.';
 
-$txt['board_moderator'] = 'Board Moderator';
-$txt['remove_topic'] = 'Remove Topic';
-$txt['topics'] = 'Topics';
-$txt['modify_msg'] = 'Modify message';
-$txt['name'] = 'Name';
-$txt['email'] = 'Email';
-$txt['subject'] = 'Subject';
-$txt['message'] = 'Message';
-$txt['redirects'] = 'Redirects';
-$txt['quick_modify'] = 'Modify Inline';
+$txt['board_moderator'] = 'Admod del scumpart';
+$txt['remove_topic'] = 'Removar topic';
+$txt['topics'] = 'Topici';
+$txt['modify_msg'] = 'Modificar mensatx';
+$txt['name'] = 'Nómină';
+$txt['email'] = 'Telepost';
+$txt['subject'] = 'Subxhect';
+$txt['message'] = 'Mensatx';
+$txt['redirects'] = 'Adversiuns';
+$txt['quick_modify'] = 'Modificar lignhal';
 
-$txt['choose_pass'] = 'Choose password';
-$txt['verify_pass'] = 'Verify password';
-$txt['position'] = 'Position';
+$txt['choose_pass'] = 'Çoiçar teßeră';
+$txt['verify_pass'] = 'Reprovar teßeră';
+$txt['position'] = 'Posizion';
 
-$txt['profile_of'] = 'View the profile of';
+$txt['profile_of'] = 'Risguardar el profil da(ð)';
 $txt['total'] = 'Total';
 $txt['posts_made'] = 'Posts';
-$txt['website'] = 'Website';
-$txt['register'] = 'Register';
-$txt['warning_status'] = 'Warning Status';
-$txt['user_warn_watch'] = 'User is on moderator watch list';
-$txt['user_warn_moderate'] = 'User posts join approval queue';
-$txt['user_warn_mute'] = 'User is banned from posting';
-$txt['warn_watch'] = 'Watched';
-$txt['warn_moderate'] = 'Moderated';
-$txt['warn_mute'] = 'Muted';
+$txt['website'] = 'Siteu WWW';
+$txt['register'] = 'Enrexhistrarh';
+$txt['warning_status'] = 'Statüs d\'aviß';
+$txt['user_warn_watch'] = 'Uçeir isch sür list da sürvixhilă admodal';
+$txt['user_warn_moderate'] = 'Posts d\'uçeir s\'axhuntent à coă d\'approval';
+$txt['user_warn_mute'] = 'Uçeir isch xhexhünescu da postar';
+$txt['warn_watch'] = 'Sürvixhilescu';
+$txt['warn_moderate'] = 'Moderescu';
+$txt['warn_mute'] = 'Scumentescu';
 
-$txt['message_index'] = 'Message Index';
-$txt['news'] = 'News';
-$txt['home'] = 'Home';
+$txt['message_index'] = 'Index da mensatx';
+$txt['news'] = 'Noveschti';
+$txt['home'] = 'Casă';
 
-$txt['lock_unlock'] = 'Lock/Unlock Topic';
+$txt['lock_unlock'] = 'Feischar/atcrivar topic';
 $txt['post'] = 'Post';
-$txt['error_occured'] = 'An Error Has Occurred!';
-$txt['at'] = 'at';
-$txt['logout'] = 'Logout';
-$txt['started_by'] = 'Started by';
-$txt['replies'] = 'Replies';
-$txt['last_post'] = 'Last post';
-$txt['admin_login'] = 'Administration Login';
+$txt['error_occured'] = '¡Ün ärör tent paßat!';
+$txt['at'] = 'à';
+$txt['logout'] = 'Zespartar';
+$txt['started_by'] = 'Començescu par';
+$txt['replies'] = 'Contestăs';
+$txt['last_post'] = 'Post pü recent';
+$txt['admin_login'] = 'Login d\'aðmistraziun';
 // Use numeric entities in the below string.
 $txt['topic'] = 'Topic';
 $txt['help'] = 'Help';
