@@ -183,146 +183,146 @@ $txt['welmsg_please'] = 'Sch\'o voi piaça,';
 $txt['select_destination'] = 'Selectetz-voi ün destinaçal, sch\'o voi piaça.';
 
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
-$txt['posted_by'] = 'Posted by';
+$txt['posted_by'] = 'Postat par';
 
-$txt['icon_smiley'] = 'Smiley';
-$txt['icon_angry'] = 'Angry';
-$txt['icon_cheesy'] = 'Cheesy';
-$txt['icon_laugh'] = 'Laugh';
-$txt['icon_sad'] = 'Sad';
-$txt['icon_wink'] = 'Wink';
-$txt['icon_grin'] = 'Grin';
-$txt['icon_shocked'] = 'Shocked';
-$txt['icon_cool'] = 'Cool';
-$txt['icon_huh'] = 'Huh';
-$txt['icon_rolleyes'] = 'Roll Eyes';
-$txt['icon_tongue'] = 'Tongue';
-$txt['icon_embarrassed'] = 'Embarrassed';
-$txt['icon_lips'] = 'Lips sealed';
-$txt['icon_undecided'] = 'Undecided';
-$txt['icon_kiss'] = 'Kiss';
-$txt['icon_cry'] = 'Cry';
+$txt['icon_smiley'] = 'Vridi';
+$txt['icon_angry'] = 'Ambrulént';
+$txt['icon_cheesy'] = 'Caischat';
+$txt['icon_laugh'] = 'Ridar';
+$txt['icon_sad'] = 'Tristeu';
+$txt['icon_wink'] = 'Quignhar';
+$txt['icon_grin'] = 'Riscanar';
+$txt['icon_shocked'] = 'Schockescu';
+$txt['icon_cool'] = 'Cumpeténs';
+$txt['icon_huh'] = 'Oho';
+$txt['icon_rolleyes'] = 'Rotlar els uglhen';
+$txt['icon_tongue'] = 'Glhimbă';
+$txt['icon_embarrassed'] = 'Embraßescu';
+$txt['icon_lips'] = 'Labrăs saxheladăs';
+$txt['icon_undecided'] = 'Inzecidescu';
+$txt['icon_kiss'] = 'Baiçar';
+$txt['icon_cry'] = 'Plörar';
 
-$txt['moderator'] = 'Moderator';
-$txt['moderators'] = 'Moderators';
+$txt['moderator'] = 'Admod';
+$txt['moderators'] = 'Admods';
 
-$txt['mark_board_read'] = 'Mark Topics as Read for this Board';
-$txt['views'] = 'Views';
-$txt['new'] = 'New';
+$txt['mark_board_read'] = 'Marcar topici come lirats per acest scumpart';
+$txt['views'] = 'Vischtăs';
+$txt['new'] = 'Noveu';
 
-$txt['view_all_members'] = 'View All Members';
-$txt['view'] = 'View';
+$txt['view_all_members'] = 'Risguardar toct i membreux';
+$txt['view'] = 'Risguardar';
 
-$txt['viewing_members'] = 'Viewing Members %1$s to %2$s';
-$txt['of_total_members'] = 'of %1$s total members';
+$txt['viewing_members'] = 'Risguardind membreux %1$s à %2$s';
+$txt['of_total_members'] = 'da %1$s membreux totais';
 
-$txt['forgot_your_password'] = 'Forgot your password?';
+$txt['forgot_your_password'] = '¿Oblievetz-voi voastră teßeră?';
 
-$txt['date'] = 'Date';
+$txt['date'] = 'Däts';
 // Use numeric entities in the below string.
-$txt['from'] = 'From';
-$txt['check_new_messages'] = 'Check for new messages';
-$txt['to'] = 'To';
+$txt['from'] = 'Da';
+$txt['check_new_messages'] = 'Controlar noveux mensatxen';
+$txt['to'] = 'À';
 
-$txt['board_topics'] = 'Topics';
-$txt['members_title'] = 'Members';
-$txt['members_list'] = 'Members List';
-$txt['new_posts'] = 'New Posts';
-$txt['old_posts'] = 'No New Posts';
-$txt['redirect_board'] = 'Redirect Board';
+$txt['board_topics'] = 'Topici';
+$txt['members_title'] = 'Membreux';
+$txt['members_list'] = 'List da membreux';
+$txt['new_posts'] = 'Noveux posts';
+$txt['old_posts'] = 'Aucün noveux posts';
+$txt['redirect_board'] = 'Dedütxar scumpart';
 
-$txt['sendtopic_send'] = 'Send';
-$txt['report_sent'] = 'Your report has been sent successfully.';
+$txt['sendtopic_send'] = 'Envoxhiar';
+$txt['report_sent'] = 'Voastra report tent estescu envoxhiat riuschladămint.';
 
-$txt['time_offset'] = 'Time Offset';
-$txt['or'] = 'or';
+$txt['time_offset'] = 'Falsacord da þorăs';
+$txt['or'] = 'eda';
 
-$txt['no_matches'] = 'Sorry, no matches were found';
+$txt['no_matches'] = 'Apoloxhaes, aucün cópuis füvent trovats';
 
-$txt['notification'] = 'Notification';
+$txt['notification'] = 'Avisă';
 
-$txt['your_ban'] = 'Sorry %1$s, you are banned from using this forum!';
-$txt['your_ban_expires'] = 'This ban is set to expire %1$s.';
-$txt['your_ban_expires_never'] = 'This ban is not set to expire.';
-$txt['ban_continue_browse'] = 'You may continue to browse the forum as a guest.';
+$txt['your_ban'] = 'Apoloxhaes %1$s, ¡voi estetz xhexhünescu d\'úçar acest tagoror!';
+$txt['your_ban_expires'] = 'Această xhexhünaziun expirarha %1$s.';
+$txt['your_ban_expires_never'] = 'Această xhexhünaziun non expirarha txamais.';
+$txt['ban_continue_browse'] = 'Voi pevetz restar föglhetind el tagoror com\'iens gäst.';
 
-$txt['mark_as_read'] = 'Mark ALL messages as read';
+$txt['mark_as_read'] = 'Marcar TOCT i mensatxen come lirats';
 
-$txt['hot_topics'] = 'Hot Topic (More than %1$d replies)';
-$txt['very_hot_topics'] = 'Very Hot Topic (More than %1$d replies)';
-$txt['locked_topic'] = 'Locked Topic';
-$txt['normal_topic'] = 'Normal Topic';
-$txt['participation_caption'] = 'Topic you have posted in';
+$txt['hot_topics'] = 'Topic caldeu (Pü qe %1$d contestăs)';
+$txt['very_hot_topics'] = 'Topic trei caldeu (Pü qe %1$d contestăs)';
+$txt['locked_topic'] = 'Topic feischat';
+$txt['normal_topic'] = 'Topic normal';
+$txt['participation_caption'] = 'Topic in qet voi tenetz postat';
 
-$txt['go_caps'] = 'GO';
+$txt['go_caps'] = 'IR';
 
-$txt['print'] = 'Print';
-$txt['profile'] = 'Profile';
-$txt['topic_summary'] = 'Topic Summary';
+$txt['print'] = 'Printar';
+$txt['profile'] = 'Profil';
+$txt['topic_summary'] = 'Resümadă del topic';
 $txt['not_applicable'] = 'N/A';
-$txt['message_lowercase'] = 'message';
-$txt['name_in_use'] = 'This name is already in use by another member.';
+$txt['message_lowercase'] = 'mensatx';
+$txt['name_in_use'] = 'Această nómină detxa isch uçadă par ün altreu membreu.';
 
-$txt['total_members'] = 'Total Members';
-$txt['total_posts'] = 'Total Posts';
-$txt['total_topics'] = 'Total Topics';
+$txt['total_members'] = 'Membreux totais';
+$txt['total_posts'] = 'Posts totais';
+$txt['total_topics'] = 'Topici totais';
 
-$txt['mins_logged_in'] = 'Minutes to stay logged in';
+$txt['mins_logged_in'] = 'Míuts da restar estind anonçescu';
 
-$txt['preview'] = 'Preview';
-$txt['always_logged_in'] = 'Always stay logged in';
+$txt['preview'] = 'Práivhischtă';
+$txt['always_logged_in'] = 'Schemp restar estind anonçescu';
 
-$txt['logged'] = 'Logged';
+$txt['logged'] = 'Logescu';
 // Use numeric entities in the below string.
 $txt['ip'] = 'IP';
 
 $txt['www'] = 'WWW';
 
-$txt['by'] = 'by';
+$txt['by'] = 'par';
 
-$txt['hours'] = 'hours';
-$txt['days_word'] = 'days';
+$txt['hours'] = 'þorăs';
+$txt['days_word'] = 'ziuăs';
 
-$txt['newest_member'] = ', our newest member.';
+$txt['newest_member'] = ', ár pü noveu membreu.';
 
-$txt['search_for'] = 'Search for';
+$txt['search_for'] = 'Çerçar';
 
 $txt['aim'] = 'AIM';
 // In this string, please use +'s for spaces.
-$txt['aim_default_message'] = 'Hi.+Are+you+there?';
-$txt['aim_title'] = 'AOL Instant Messenger';
+$txt['aim_default_message'] = 'Azul.+¿Estetz-voi+aicì?';
+$txt['aim_title'] = 'Mensaxheir Istind AOL';
 $txt['icq'] = 'ICQ';
-$txt['icq_title'] = 'ICQ Messenger';
+$txt['icq_title'] = 'Mensaxheir ICQ';
 $txt['msn'] = 'MSN';
-$txt['msn_title'] = 'MSN Messenger';
+$txt['msn_title'] = 'Mensaxheir MSN';
 $txt['yim'] = 'YIM';
-$txt['yim_title'] = 'Yahoo Instant Messenger';
+$txt['yim_title'] = 'Mensaxheir Istind Yahoo';
 
-$txt['maintain_mode_on'] = 'Remember, this forum is in \'Maintenance Mode\'.';
+$txt['maintain_mode_on'] = 'Sovenençetz-voi q\'acest tagoror c\'e in la \'Modă da mamtenençù\'.';
 
-$txt['read'] = 'Read';
-$txt['times'] = 'times';
+$txt['read'] = 'Lirat';
+$txt['times'] = 'fäts';
 
-$txt['forum_stats'] = 'Forum Stats';
-$txt['latest_member'] = 'Latest Member';
-$txt['total_cats'] = 'Total Categories';
-$txt['latest_post'] = 'Latest Post';
+$txt['forum_stats'] = 'Statistici del scumpart';
+$txt['latest_member'] = 'Membreu pü recent';
+$txt['total_cats'] = 'Laïnăs totais';
+$txt['latest_post'] = 'Post pü recent';
 
-$txt['you_have'] = 'You\'ve got';
-$txt['click'] = 'Click';
-$txt['here'] = 'here';
-$txt['to_view'] = 'to view them.';
+$txt['you_have'] = 'Voi tenetz';
+$txt['click'] = 'Clichetz';
+$txt['here'] = 'aicì';
+$txt['to_view'] = 'à risguardar-en.';
 
-$txt['total_boards'] = 'Total Boards';
+$txt['total_boards'] = 'Scumparts totais';
 
-$txt['print_page'] = 'Print Page';
+$txt['print_page'] = 'Printar páxhină';
 
-$txt['valid_email'] = 'This must be a valid email address.';
+$txt['valid_email'] = 'Acest fost estar ün adreçéu da telepost gültec\'h.';
 
-$txt['geek'] = 'I am a geek!!';
-$txt['info_center_title'] = '%1$s - Info Center';
+$txt['geek'] = '¡¡Éu sint \'n geek!!';
+$txt['info_center_title'] = '%1$s - Centreu d\'informaziun';
 
-$txt['send_topic'] = 'Send this topic';
+$txt['send_topic'] = 'Envoxhiar acest topic';
 
 $txt['sendtopic_title'] = 'Send the topic &quot;%1$s&quot; to a friend.';
 $txt['sendtopic_sender_name'] = 'Your name';
