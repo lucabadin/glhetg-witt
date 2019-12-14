@@ -10,7 +10,7 @@ global $forum_copyright, $forum_version, $webmaster_email, $scripturl, $context,
 // Again, SPELLING SHOULD BE '' 99% OF THE TIME!!  Please read this!
 $txt['lang_locale'] = 'tzl_TZL';
 $txt['lang_dictionary'] = 'tzl';
-$txt['lang_spelling'] = '';
+$txt['lang_spelling'] = 'proviziunal';
 
 // Ensure you remember to use uppercase for character set strings.
 $txt['lang_character_set'] = 'ISO-8859-1';
@@ -75,13 +75,13 @@ $txt['quick_modify'] = 'Modificar lignhal';
 
 $txt['choose_pass'] = 'Çoiçar teßeră';
 $txt['verify_pass'] = 'Reprovar teßeră';
-$txt['position'] = 'Posizion';
+$txt['position'] = 'Posiziun';
 
 $txt['profile_of'] = 'Risguardar el profil da(ð)';
 $txt['total'] = 'Total';
 $txt['posts_made'] = 'Posts';
 $txt['website'] = 'Siteu WWW';
-$txt['register'] = 'Enrexhistrarh';
+$txt['register'] = 'Enrexhistrar';
 $txt['warning_status'] = 'Statüs d\'aviß';
 $txt['user_warn_watch'] = 'Uçeir isch sür list da sürvixhilă admodal';
 $txt['user_warn_moderate'] = 'Posts d\'uçeir s\'axhuntent à coă d\'approval';
@@ -159,7 +159,7 @@ $txt['notify_deactivate'] = '¿Veladretz-voi zisactivar dals avisaziuns sür ace
 
 $txt['recent_posts'] = 'Posts recents';
 
-$txt['location'] = 'Locazion';
+$txt['location'] = 'Locaziun';
 $txt['gender'] = 'Xhendreu';
 $txt['date_registered'] = 'Däts d\'anuntziă';
 
@@ -173,7 +173,7 @@ $txt['error_invalid_characters_username'] = 'Caractréu ingültec\'h uçescu in 
 
 $txt['welcome_guest'] = 'Benvenescu, <strong>%1$s</strong>. <a href="' . $scripturl . '?action=login">S\'anonçetz-voi</a> eda <a href="' . $scripturl . '?action=register">enrexhistretz-voi</a>, sch\'o voi piaça.';
 $txt['login_or_register'] = '<a href="' . $scripturl . '?action=login">S\'anonçetz-voi</a> eda <a href="' . $scripturl . '?action=register">enrexhistretz-voi</a>, sch\'o voi piaça.';
-$txt['welcome_guest_activate'] = '<br />¿Non reçaifevetz-voi voastra <a href="' . $scripturl . '?action=activate">telepost d\'enrexhistraziun</a>?';
+$txt['welcome_guest_activate'] = '<br />¿Non reçeitevetz-voi voastra <a href="' . $scripturl . '?action=activate">telepost d\'enrexhistraziun</a>?';
 $txt['hello_member'] = 'Azul,';
 // Use numeric entities in the below string.
 $txt['hello_guest'] = 'Benvenescu,';
@@ -324,240 +324,240 @@ $txt['info_center_title'] = '%1$s - Centreu d\'informaziun';
 
 $txt['send_topic'] = 'Envoxhiar acest topic';
 
-$txt['sendtopic_title'] = 'Send the topic &quot;%1$s&quot; to a friend.';
-$txt['sendtopic_sender_name'] = 'Your name';
-$txt['sendtopic_sender_email'] = 'Your email address';
-$txt['sendtopic_receiver_name'] = 'Recipient\'s name';
-$txt['sendtopic_receiver_email'] = 'Recipient\'s email address';
-$txt['sendtopic_comment'] = 'Add a comment';
+$txt['sendtopic_title'] = 'Envoxhiar el topic &quot;%1$s&quot; à\'iens amíc.';
+$txt['sendtopic_sender_name'] = 'Voastră nómină';
+$txt['sendtopic_sender_email'] = 'Voastra adreçéu da telepost';
+$txt['sendtopic_receiver_name'] = 'Nómină del reçeiteir';
+$txt['sendtopic_receiver_email'] = 'Adreçéu da telepost del reçeiteir';
+$txt['sendtopic_comment'] = 'Axhuntar ün comentar';
 
-$txt['allow_user_email'] = 'Allow users to email me';
+$txt['allow_user_email'] = 'Permitar uçeirs àð envoxhiar-me dels teleposts';
 
-$txt['check_all'] = 'Check all';
+$txt['check_all'] = 'Controlar toct';
 
 // Use numeric entities in the below string.
-$txt['database_error'] = 'Database Error';
-$txt['try_again'] = 'Please try again.  If you come back to this error screen, report the error to an administrator.';
-$txt['file'] = 'File';
-$txt['line'] = 'Line';
+$txt['database_error'] = 'Ärör da colectă dels datüns';
+$txt['try_again'] = 'Atentetz-voi da nhouă, sch\'o voi piaça. Schi voi zevetz à\'ceastă peintaglhă d\'ärör, reportetz-voi l\'ärör à\'iens aðmistreir.'; 
+$txt['file'] = 'Fischeir';
+$txt['line'] = 'Lignhă';
 // Use numeric entities in the below string.
-$txt['tried_to_repair'] = 'SMF has detected and automatically tried to repair an error in your database.  If you continue to have problems, or continue to receive these emails, please contact your host.';
-$txt['database_error_versions'] = '<strong>Note:</strong> It appears that your database <em>may</em> require an upgrade. Your forum\'s files are currently at version %1$s, while your database is at version %2$s. The above error might possibly go away if you execute the latest version of upgrade.php.';
-$txt['template_parse_error'] = 'Template Parse Error!';
-$txt['template_parse_error_message'] = 'It seems something has gone sour on the forum with the template system.  This problem should only be temporary, so please come back later and try again.  If you continue to see this message, please contact the administrator.<br /><br />You can also try <a href="javascript:location.reload();">refreshing this page</a>.';
-$txt['template_parse_error_details'] = 'There was a problem loading the <tt><strong>%1$s</strong></tt> template or language file.  Please check the syntax and try again - remember, single quotes (<tt>\'</tt>) often have to be escaped with a slash (<tt>\\</tt>).  To see more specific error information from PHP, try <a href="' . $boardurl . '%1$s">accessing the file directly</a>.<br /><br />You may want to try to <a href="javascript:location.reload();">refresh this page</a> or <a href="' . $scripturl . '?theme=1">use the default theme</a>.';
+$txt['tried_to_repair'] = 'SMF tent zestectat es atentat autumätsmint à reparar ün ärör in voastră colectă dels datüns. Schi voi restetz tischind dels problüms, eda restetz reçeitind acestilor teleposts, contactetz-voi voastra þost.';
+$txt['database_error_versions'] = '<strong>Aviß:</strong> Ça sembla qe voastră colectă dels datüns <em>så\'star</em> resquira ün upgrade. Els fischeirs da voastra tagoror sint actüellmint sür la verziun %1$s, quand qe voastră colectă dels datüns isch sür la verziun %2$s. L\'ärör dasupra povadra pouçivalmint quarfar schi voi executetz la verziun la pü recent da upgrade.php.';
+$txt['template_parse_error'] = '¡Ärör da scumpraziun dels modeis!';
+$txt['template_parse_error_message'] = 'Ça sembla qe quálse\'cosă tent caßescu sür el tagoror in el süstem dels modeis. Acest ärör fostadra estar solămint tempurar, aglhorc revenetz-voi es riatentetz-voi, sch\'o voi piaça. Schi voi restetz vidar acest mensatx, contactetz-voi l\'aðmistreir, sch\'o voi piaça.<br /><br />Voi pevetz ocså atentar à <a href="javascript:location.reload();">fraschciantar această páxhină</a>.';
+$txt['template_parse_error_details'] = 'Hi estev\'iens problüm quand qe si schciarxheva el model eda fischeir da glheþ <tt><strong>%1$s</strong></tt>. Sch\'o voi piaça, controletz-voi la sintaschă es riatentetz-voi - sovenençetz-voi qe pünts da quotaziun singuis (<tt>\'</tt>) sovint fossent estar escapats cün ünă asnaroă (<tt>\\</tt>). Per vidar dal informaziun d\'ärör pü specific da PHP, atentetz-voi à <a href="' . $boardurl . '%1$s">aceßar el fischeir direct</a>.<br /><br />Så\'star voi veletz atentar à <a href="javascript:location.reload();">fraschciantar această páxhină</a> eda <a href="' . $scripturl . '?theme=1">úçar la þemă da zesfatxă</a>.';
 
-$txt['today'] = '<strong>Today</strong> at ';
-$txt['yesterday'] = '<strong>Yesterday</strong> at ';
-$txt['new_poll'] = 'New poll';
-$txt['poll_question'] = 'Question';
-$txt['poll_vote'] = 'Submit Vote';
-$txt['poll_total_voters'] = 'Total Members Voted';
-$txt['shortcuts'] = 'shortcuts: hit alt+s to submit/post or alt+p to preview';
-$txt['shortcuts_firefox'] = 'shortcuts: hit shift+alt+s to submit/post or shift+alt+p to preview';
-$txt['poll_results'] = 'View results';
-$txt['poll_lock'] = 'Lock Voting';
-$txt['poll_unlock'] = 'Unlock Voting';
-$txt['poll_edit'] = 'Edit Poll';
-$txt['poll'] = 'Poll';
-$txt['one_day'] = '1 Day';
-$txt['one_week'] = '1 Week';
-$txt['one_month'] = '1 Month';
-$txt['forever'] = 'Forever';
-$txt['quick_login_dec'] = 'Login with username, password and session length';
-$txt['one_hour'] = '1 Hour';
-$txt['moved'] = 'MOVED';
-$txt['moved_why'] = 'Please enter a brief description as to<br />why this topic is being moved.';
-$txt['board'] = 'Board';
+$txt['today'] = '<strong>Oxhi</strong> à ';
+$txt['yesterday'] = '<strong>Ieiri</strong> à ';
+$txt['new_poll'] = 'Noveu sondatx';
+$txt['poll_question'] = 'Fragă';
+$txt['poll_vote'] = 'Suotamestar votă';
+$txt['poll_total_voters'] = 'Voteirs totais';
+$txt['shortcuts'] = 'coarturealăs: preßetz-voi alt+s à suotamestar/postar eda alt+p à práivhischtar';
+$txt['shortcuts_firefox'] = 'coarturealăs: preßetz-voi shift+alt+s à suotamestar/postar eda shift+alt+p à práivhischtar';
+$txt['poll_results'] = 'Risguardar resultaes';
+$txt['poll_lock'] = 'Feischar votaziun';
+$txt['poll_unlock'] = 'Atcrivar votaziun';
+$txt['poll_edit'] = 'Editar sondatx';
+$txt['poll'] = 'Sondatx';
+$txt['one_day'] = '1 ziuă';
+$txt['one_week'] = '1 seifetziuă';
+$txt['one_month'] = '1 mes';
+$txt['forever'] = 'schemp';
+$txt['quick_login_dec'] = 'Login cün codă da sámbånd, teßeră es lungatà da seßiun';
+$txt['one_hour'] = '1 þoră';
+$txt['moved'] = 'MOVESCU';
+$txt['moved_why'] = 'Entretz-voi ünă ziscriuziun scurzniă över<br />perqet si mova acest topic, sch\'o voi piaça.';
+$txt['board'] = 'Scumpart';
 $txt['in'] = 'in';
-$txt['sticky_topic'] = 'Sticky Topic';
+$txt['sticky_topic'] = 'Topic glüificat';
 
-$txt['delete'] = 'Delete';
+$txt['delete'] = 'Zeletar';
 
-$txt['your_pms'] = 'Your Personal Messages';
+$txt['your_pms'] = 'Voschtri mensatxen perziunais';
 
 $txt['kilobyte'] = 'kB';
 
-$txt['more_stats'] = '[More Stats]';
+$txt['more_stats'] = '[Statistici da phü]';
 
 // Use numeric entities in the below three strings.
-$txt['code'] = 'Code';
-$txt['code_select'] = '[Select]';
-$txt['quote_from'] = 'Quote from';
-$txt['quote'] = 'Quote';
+$txt['code'] = 'Codă';
+$txt['code_select'] = '[Selectar]';
+$txt['quote_from'] = 'Quotar da';
+$txt['quote'] = 'Quotar';
 
-$txt['merge_to_topic_id'] = 'ID of target topic';
-$txt['split'] = 'Split Topic';
-$txt['merge'] = 'Merge Topics';
-$txt['subject_new_topic'] = 'Subject For New Topic';
-$txt['split_this_post'] = 'Only split this post.';
-$txt['split_after_and_this_post'] = 'Split topic after and including this post.';
-$txt['select_split_posts'] = 'Select posts to split.';
-$txt['new_topic'] = 'New Topic';
-$txt['split_successful'] = 'Topic successfully split into two topics.';
-$txt['origin_topic'] = 'Origin Topic';
-$txt['please_select_split'] = 'Please select which posts you wish to split.';
-$txt['merge_successful'] = 'Topics successfully merged.';
-$txt['new_merged_topic'] = 'Newly Merged Topic';
-$txt['topic_to_merge'] = 'Topic to be merged';
-$txt['target_board'] = 'Target board';
-$txt['target_topic'] = 'Target topic';
-$txt['merge_confirm'] = 'Are you sure you want to merge';
-$txt['with'] = 'with';
-$txt['merge_desc'] = 'This function will merge the messages of two topics into one topic. The messages will be sorted according to the time of posting. Therefore the earliest posted message will be the first message of the merged topic.';
+$txt['merge_to_topic_id'] = 'ID del topic entocat';
+$txt['split'] = 'Ziviçar topic';
+$txt['merge'] = 'Ügnhar topici';
+$txt['subject_new_topic'] = 'Subxhect per noveu topic';
+$txt['split_this_post'] = 'Solămint ziviçar acest post.';
+$txt['split_after_and_this_post'] = 'Ziviçar topic osprei es comprís acest post.';
+$txt['select_split_posts'] = 'Selectar posts à ziviçar.';
+$txt['new_topic'] = 'Noveu topic';
+$txt['split_successful'] = 'Topic ziviçat riuschladămint ainciün doua topici.';
+$txt['origin_topic'] = 'Topic d\'urixhì';
+$txt['please_select_split'] = 'Selectetz-voi quáisevois posts voi veletz ziviçar, sch\'o voi piaça.';
+$txt['merge_successful'] = 'Topici ügnhats riuschladămint.';
+$txt['new_merged_topic'] = 'Topici nouămint ügnhats';
+$txt['topic_to_merge'] = 'Topic àð ügnhar';
+$txt['target_board'] = 'Scumpart entocat';
+$txt['target_topic'] = 'Topic entocat';
+$txt['merge_confirm'] = 'Estetz-voi sigür qe voi veletz ügnhar';
+$txt['with'] = 'cün';
+$txt['merge_desc'] = 'Această funziun ügnharha els mensatxen da doua topici ainciün viens topic. Els mensatxen serent aireçats eftir el temp da postamaintsch. Aglhorc el post el pü frü postat serà el prüm mensatx del topic ügnhat.';
 
-$txt['set_sticky'] = 'Set topic sticky';
-$txt['set_nonsticky'] = 'Set topic non-sticky';
-$txt['set_lock'] = 'Lock topic';
-$txt['set_unlock'] = 'Unlock topic';
+$txt['set_sticky'] = 'Glüificar topic';
+$txt['set_nonsticky'] = 'Zisglüificar topic';
+$txt['set_lock'] = 'Feischar topic';
+$txt['set_unlock'] = 'Atcrivar topic';
 
-$txt['search_advanced'] = 'Advanced search';
+$txt['search_advanced'] = 'Çerçă avançadă';
 
-$txt['security_risk'] = 'MAJOR SECURITY RISK:';
-$txt['not_removed'] = 'You have not removed ';
-$txt['not_removed_extra'] ='%1$s is a backup of %2$s that was not generated by SMF. It can be accessed directly and used to gain unauthorised access to your forum. You should delete it immediately.';
+$txt['security_risk'] = 'RISCĂ DA SIGÜRITÀ MAXHOR:';
+$txt['not_removed'] = 'Voi non tenetz removat ';
+$txt['not_removed_extra'] ='%1$s c\'e\'n cumpair da %2$s qi non füt xhenerat par SMF. Si put aceßar-en direct es úçar-en à gagnhar l\'eintradă inauþorisadă à voastra tagoror. Voi fossent zeletar-en strax.';
 
-$txt['cache_writable_head'] = 'Performance Warning';
-$txt['cache_writable'] = 'The cache directory is not writable - this will adversely affect the performance of your forum.';
+$txt['cache_writable_head'] = 'Aviß d\'Espunziun';
+$txt['cache_writable'] = 'La nac\'hveisă da cache non isch scriuaval - acest afectarha l\'espunziun da voastra tagoror averçéămint.';
 
-$txt['page_created'] = 'Page created in ';
-$txt['seconds_with'] = ' seconds with ';
-$txt['queries'] = ' queries.';
+$txt['page_created'] = 'Páxhină creadă in ';
+$txt['seconds_with'] = ' secunds cün ';
+$txt['queries'] = ' requestăs.';
 
-$txt['report_to_mod_func'] = 'Use this function to inform the moderators and administrators of an abusive or wrongly posted message.<br /><em>Please note that your email address will be revealed to the moderators if you use this.</em>';
+$txt['report_to_mod_func'] = 'Uçetz-voi această funziun àð informar els admods es aðmistreirs d\'iens mensatx abusïu eda necorrémint postat. <br /><em> Trac\'hetz-voi sch\'o voi piaça qe voastra adreçéu da telepost serà revelat àls admods schi voi en uçetz.</em>';
 
-$txt['online'] = 'Online';
-$txt['offline'] = 'Offline';
-$txt['pm_online'] = 'Personal Message (Online)';
-$txt['pm_offline'] = 'Personal Message (Offline)';
-$txt['status'] = 'Status';
+$txt['online'] = 'Sürlignhă';
+$txt['offline'] = 'Non sürlignhă';
+$txt['pm_online'] = 'Mensatx perziunal (sürlignhă)';
+$txt['pm_offline'] = 'Mensatx perziunal (non sürlignhă)';
+$txt['status'] = 'Statüs';
 
-$txt['go_up'] = 'Go Up';
-$txt['go_down'] = 'Go Down';
+$txt['go_up'] = 'Ir upp';
+$txt['go_down'] = 'Ir under';
 
 $forum_copyright = '<a href="' . $scripturl . '?action=credits" title="Simple Machines Forum" target="_blank" class="new_win">%1$s</a> |
  <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2017</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a>';
 
-$txt['birthdays'] = 'Birthdays:';
-$txt['events'] = 'Events:';
-$txt['birthdays_upcoming'] = 'Upcoming Birthdays:';
-$txt['events_upcoming'] = 'Upcoming Events:';
+$txt['birthdays'] = 'Nadaliçăs:';
+$txt['events'] = 'Evints:';
+$txt['birthdays_upcoming'] = 'Nadaliçăs arivinds:';
+$txt['events_upcoming'] = 'Evints arivinds:';
 // Prompt for holidays in the calendar, leave blank to just display the holiday's name.
 $txt['calendar_prompt'] = '';
-$txt['calendar_month'] = 'Month:';
-$txt['calendar_year'] = 'Year:';
-$txt['calendar_day'] = 'Day:';
-$txt['calendar_event_title'] = 'Event Title';
-$txt['calendar_event_options'] = 'Event Options';
-$txt['calendar_post_in'] = 'Post In:';
-$txt['calendar_edit'] = 'Edit Event';
-$txt['event_delete_confirm'] = 'Delete this event?';
-$txt['event_delete'] = 'Delete Event';
-$txt['calendar_post_event'] = 'Post Event';
-$txt['calendar'] = 'Calendar';
-$txt['calendar_link'] = 'Link to Calendar';
-$txt['calendar_upcoming'] = 'Upcoming Calendar';
-$txt['calendar_today'] = 'Today\'s Calendar';
-$txt['calendar_week'] = 'Week';
-$txt['calendar_week_title'] = 'Week %1$d of %2$d';
-$txt['calendar_numb_days'] = 'Number of Days:';
-$txt['calendar_how_edit'] = 'how do you edit these events?';
-$txt['calendar_link_event'] = 'Link Event To Post:';
-$txt['calendar_confirm_delete'] = 'Are you sure you want to delete this event?';
-$txt['calendar_linked_events'] = 'Linked Events';
-$txt['calendar_click_all'] = 'click to see all %1$s';
+$txt['calendar_month'] = 'Mes:';
+$txt['calendar_year'] = 'År:';
+$txt['calendar_day'] = 'Ziuă:';
+$txt['calendar_event_title'] = 'Titlă d\'evint';
+$txt['calendar_event_options'] = 'Opziuns d\'evint';
+$txt['calendar_post_in'] = 'Postar in:';
+$txt['calendar_edit'] = 'Editar evint';
+$txt['event_delete_confirm'] = '¿Zeletar acest evint?';
+$txt['event_delete'] = '¿Zeletar evint';
+$txt['calendar_post_event'] = 'Postar evint';
+$txt['calendar'] = 'Calendriereu';
+$txt['calendar_link'] = 'Linc à calendriereu';
+$txt['calendar_upcoming'] = 'Calendriereu arivind';
+$txt['calendar_today'] = 'Calendriereu d\'oxhi';
+$txt['calendar_week'] = 'Seifetziuă';
+$txt['calendar_week_title'] = 'Seifetziuă %1$d da %2$d';
+$txt['calendar_numb_days'] = 'Númerul da ziuăs:';
+$txt['calendar_how_edit'] = '¿come edita-si acestilor evints?';
+$txt['calendar_link_event'] = 'Lincar evint à post:';
+$txt['calendar_confirm_delete'] = '¿Estetz-voi sigür qe voi veletz zeletar acest evint?';
+$txt['calendar_linked_events'] = 'Evints lincats';
+$txt['calendar_click_all'] = 'clichetz-voi à vidar toct i %1$s';
 
-$txt['moveTopic1'] = 'Post a redirection topic';
-$txt['moveTopic2'] = 'Change the topic\'s subject';
-$txt['moveTopic3'] = 'New subject';
-$txt['moveTopic4'] = 'Change every message\'s subject';
-$txt['move_topic_unapproved_js'] = 'Warning! This topic has not yet been approved.\\n\\nIt is not recommended that you create a redirection topic unless you intend to approve the post immediately following the move.';
+$txt['moveTopic1'] = 'Postar ün topic d\'adversiun';
+$txt['moveTopic2'] = 'Cambiar el subxhect del topic';
+$txt['moveTopic3'] = 'Noveu subxhect';
+$txt['moveTopic4'] = 'Cambiar el subxhect da toct i mensatxen';
+$txt['move_topic_unapproved_js'] = '¡Aviß! Si adüc non tent aprovat acest topic.\\n\\nNon si recomenda qe voi createtz ün topic d\'aversiun salva qe voi intençetz aprovar el post strax osprei la movaziun.';
 
-$txt['theme_template_error'] = 'Unable to load the \'%1$s\' template.';
-$txt['theme_language_error'] = 'Unable to load the \'%1$s\' language file.';
+$txt['theme_template_error'] = 'Incapaval à schciarxhar el model  \'%1$s\'.';
+$txt['theme_language_error'] = 'Incapaval à schciarxhar el fischeir da glheþ \'%1$s\'.';
 
-$txt['parent_boards'] = 'Child Boards';
+$txt['parent_boards'] = 'Tagorors d\'infint';
 
-$txt['smtp_no_connect'] = 'Could not connect to SMTP host';
-$txt['smtp_port_ssl'] = 'SMTP port setting incorrect; it should be 465 for SSL servers.';
-$txt['smtp_bad_response'] = 'Couldn\'t get mail server response codes';
-$txt['smtp_error'] = 'Ran into problems sending Mail. Error: ';
-$txt['mail_send_unable'] = 'Unable to send mail to the email address \'%1$s\'';
+$txt['smtp_no_connect'] = 'Non pognheva conectar àl þost SMTP';
+$txt['smtp_port_ssl'] = 'Setatx da port SMTP necorrè; ça fost estar 465 per els serveirs  SSL.';
+$txt['smtp_bad_response'] = 'Non pognheva reçeitar codăs da respuns da serveir da telepost';
+$txt['smtp_error'] = 'Encuntreva problüms quand qe envoxhieva telepost. Ärör: ';
+$txt['mail_send_unable'] = 'Incapaval àð envoxhiar telepost àl adreçéu da telepost \'%1$s\'';
 
-$txt['mlist_search'] = 'Search For Members';
-$txt['mlist_search_again'] = 'Search again';
-$txt['mlist_search_email'] = 'Search by email address';
-$txt['mlist_search_messenger'] = 'Search by messenger nickname';
-$txt['mlist_search_group'] = 'Search by position';
-$txt['mlist_search_name'] = 'Search by name';
-$txt['mlist_search_website'] = 'Search by website';
-$txt['mlist_search_results'] = 'Search results for';
-$txt['mlist_search_by'] = 'Search by %1$s';
-$txt['mlist_menu_view'] = 'View the memberlist';
+$txt['mlist_search'] = 'Çerçar membreux';
+$txt['mlist_search_again'] = 'Çerçar da nhouă';
+$txt['mlist_search_email'] = 'Çerçar par adreçéu da telepost';
+$txt['mlist_search_messenger'] = 'Çerçar par tancuft da mensaxheir';
+$txt['mlist_search_group'] = 'Çerçar par posiziun';
+$txt['mlist_search_name'] = 'Çerçar par nómină';
+$txt['mlist_search_website'] = 'Çerçar par siteu WWW';
+$txt['mlist_search_results'] = 'Çerçar resultaes per';
+$txt['mlist_search_by'] = 'Çerçar par %1$s';
+$txt['mlist_menu_view'] = 'Risguardar el list da membreux';
 
-$txt['attach_downloaded'] = 'downloaded';
-$txt['attach_viewed'] = 'viewed';
-$txt['attach_times'] = 'times';
+$txt['attach_downloaded'] = 'transreçaifescu';
+$txt['attach_viewed'] = 'risguardescu';
+$txt['attach_times'] = 'fäts';
 
-$txt['settings'] = 'Settings';
-$txt['never'] = 'Never';
-$txt['more'] = 'more';
+$txt['settings'] = 'Setatxen';
+$txt['never'] = 'Txamais';
+$txt['more'] = 'pü';
 
-$txt['hostname'] = 'Hostname';
-$txt['you_are_post_banned'] = 'Sorry %1$s, you are banned from posting and sending personal messages on this forum.';
-$txt['ban_reason'] = 'Reason';
+$txt['hostname'] = 'Nómină da þost';
+$txt['you_are_post_banned'] = 'Apoloxhaes %1$s, voi estetz xhexhünescu da postar es envoxhiar dels mensatxen perziunais sür acest tagoror.';
+$txt['ban_reason'] = 'Raziun';
 
-$txt['tables_optimized'] = 'Database tables optimized';
+$txt['tables_optimized'] = 'Tableux da colectă dels datüns optimiçats';
 
-$txt['add_poll'] = 'Add poll';
-$txt['poll_options6'] = 'You may only select up to %1$s options.';
-$txt['poll_remove'] = 'Remove Poll';
-$txt['poll_remove_warn'] = 'Are you sure you want to remove this poll from the topic?';
-$txt['poll_results_expire'] = 'Results will be shown when voting has closed';
-$txt['poll_expires_on'] = 'Voting closes';
-$txt['poll_expired_on'] = 'Voting closed';
-$txt['poll_change_vote'] = 'Remove Vote';
-$txt['poll_return_vote'] = 'Voting options';
-$txt['poll_cannot_see'] = 'You cannot see the results of this poll at the moment.';
+$txt['add_poll'] = 'Axhuntar sondatx';
+$txt['poll_options6'] = 'Voi pevetz selectar solămint txusca %1$s opziuns.';
+$txt['poll_remove'] = 'Removar sondatx';
+$txt['poll_remove_warn'] = '¿Estetz-voi sigür qe voi veletz removar acest sondatx del topic?';
+$txt['poll_results_expire'] = 'Las resultaes serent mostradăs quand qe la votaziun tent terminat';
+$txt['poll_expires_on'] = 'Votaziun termina';
+$txt['poll_expired_on'] = 'Votaziun termineva';
+$txt['poll_change_vote'] = 'Removar votă';
+$txt['poll_return_vote'] = 'Opziuns da votar';
+$txt['poll_cannot_see'] = 'Voi non pevetz vidar las resultaes d\'acest sondatx actüellmint.';
 
-$txt['quick_mod_approve'] = 'Approve selected';
-$txt['quick_mod_remove'] = 'Remove selected';
-$txt['quick_mod_lock'] = 'Lock/Unlock selected';
-$txt['quick_mod_sticky'] = 'Sticky/Unsticky selected';
-$txt['quick_mod_move'] = 'Move selected to';
-$txt['quick_mod_merge'] = 'Merge selected';
-$txt['quick_mod_markread'] = 'Mark selected read';
-$txt['quick_mod_go'] = 'Go!';
-$txt['quickmod_confirm'] = 'Are you sure you want to do this?';
+$txt['quick_mod_approve'] = 'Aprovar selectats';
+$txt['quick_mod_remove'] = 'Removar selectats';
+$txt['quick_mod_lock'] = 'Feischar/atcrivar selectats';
+$txt['quick_mod_sticky'] = 'Glüificar/zisglüificar selectats';
+$txt['quick_mod_move'] = 'Movar selectats à';
+$txt['quick_mod_merge'] = 'Ügnhar selectats';
+$txt['quick_mod_markread'] = 'Marcar selectats come lirats';
+$txt['quick_mod_go'] = 'Va!';
+$txt['quickmod_confirm'] = '¿Estetz-voi sigür qe voi veletz façar acest?';
 
-$txt['spell_check'] = 'Spell Check';
+$txt['spell_check'] = 'Controlar speliçaziun';
 
-$txt['quick_reply'] = 'Quick Reply';
-$txt['quick_reply_desc'] = 'With <em>Quick-Reply</em> you can write a post when viewing a topic without loading a new page. You can still use bulletin board code and smileys as you would in a normal post.';
-$txt['quick_reply_warning'] = 'Warning: this topic is currently locked! Only admins and moderators can reply.';
-$txt['quick_reply_verification'] = 'After submitting your post you will be directed to the regular post page to verify your post %1$s.';
-$txt['quick_reply_verification_guests'] = '(required for all guests)';
-$txt['quick_reply_verification_posts'] = '(required for all users with less than %1$d posts)';
-$txt['wait_for_approval'] = 'Note: this post will not display until it\'s been approved by a moderator.';
+$txt['quick_reply'] = 'Contestă laintă';
+$txt['quick_reply_desc'] = 'Cün ünă <em>contestă laintă</em> voi pevetz scríuar ün post quand qe voi risguardetz ün topic sanc schciarxhar ünă nouă páxhină. Voi restetz povind úçar la codă BBS es dels emoticons come voi en façadretz in ün post normal.';
+$txt['quick_reply_warning'] = 'Aviß: ¡acest topic isch actüellmint feischat! Solămint dels aðmistreirs es admods povent rezirar.';
+$txt['quick_reply_verification'] = 'Osprei qe voi suotamestetz voastra post, voi seretz zirectescu àl páxhină da postaziun normal à controlar voastra post %1$s.';
+$txt['quick_reply_verification_guests'] = '(resquirat per toct i gästs)';
+$txt['quick_reply_verification_posts'] = '(resquirat per toct i uçeirs cün mïus qe %1$d posts)';
+$txt['wait_for_approval'] = 'Aviß: acest post non serà zesplegat txusca qe ça tent estescu aprovat par ün admod.';
 
-$txt['notification_enable_board'] = 'Are you sure you wish to enable notification of new topics for this board?';
-$txt['notification_disable_board'] = 'Are you sure you wish to disable notification of new topics for this board?';
-$txt['notification_enable_topic'] = 'Are you sure you wish to enable notification of new replies for this topic?';
-$txt['notification_disable_topic'] = 'Are you sure you wish to disable notification of new replies for this topic?';
+$txt['notification_enable_board'] = '¿Estetz-voi sigür qe voi veletz endünamar l\'avisaziun dels noveux topici per acest tagoror?';
+$txt['notification_disable_board'] = '¿Estetz-voi sigür qe voi veletz zisendünamar l\'avisaziun dels noveux topici per acest tagoror?';
+$txt['notification_enable_topic'] = '¿Estetz-voi sigür qe voi veletz endünamar l\'avisaziun dals nouăs contestăs per acest tagoror?';
+$txt['notification_disable_topic'] = '¿Estetz-voi sigür qe voi veletz zisendünamar l\'avisaziun dals nouăs contestăs per acest tagoror?';
 
-$txt['report_to_mod'] = 'Report to moderator';
-$txt['issue_warning_post'] = 'Issue a warning because of this message';
+$txt['report_to_mod'] = 'Reportar àð admod';
+$txt['issue_warning_post'] = 'Emestar ün aviß à c\'hauçă d\'acest mensatx';
 
-$txt['unread_topics_visit'] = 'Recent Unread Topics';
-$txt['unread_topics_visit_none'] = 'No unread topics found since your last visit.  <a href="' . $scripturl . '?action=unread;all">Click here to try all unread topics</a>.';
-$txt['unread_topics_all'] = 'All Unread Topics';
-$txt['unread_replies'] = 'Updated Topics';
+$txt['unread_topics_visit'] = 'Topici non lirat recents';
+$txt['unread_topics_visit_none'] = 'Non si troveva aucün topici non lirats zespäts voastra visitaziun pü recent. <a href="' . $scripturl . '?action=unread;all">Clichetz aicì àð atentar toct i topici non lirats</a>.';
+$txt['unread_topics_all'] = 'Toct i topici non lirats';
+$txt['unread_replies'] = 'Topici inovats';
 
-$txt['who_title'] = 'Who\'s Online';
-$txt['who_and'] = ' and ';
-$txt['who_viewing_topic'] = ' are viewing this topic.';
-$txt['who_viewing_board'] = ' are viewing this board.';
-$txt['who_member'] = 'Member';
+$txt['who_title'] = 'Qi\'st sürlignhă';
+$txt['who_and'] = ' es ';
+$txt['who_viewing_topic'] = ' risguardent acest topic.';
+$txt['who_viewing_board'] = ' risguardent acest scumpart.';
+$txt['who_member'] = 'Membreu';
 
 // No longer used by default theme, but for backwards compat
 $txt['powered_by_php'] = 'Powered by PHP';
@@ -572,182 +572,182 @@ $txt['rss'] = 'RSS';
 $txt['xhtml'] = 'XHTML';
 $txt['html'] = 'HTML';
 
-$txt['guest'] = 'Guest';
-$txt['guests'] = 'Guests';
-$txt['user'] = 'User';
-$txt['users'] = 'Users';
-$txt['hidden'] = 'Hidden';
-$txt['buddy'] = 'Buddy';
-$txt['buddies'] = 'Buddies';
-$txt['most_online_ever'] = 'Most Online Ever';
-$txt['most_online_today'] = 'Most Online Today';
+$txt['guest'] = 'Gäst';
+$txt['guests'] = 'Gästs';
+$txt['user'] = 'Uçeir';
+$txt['users'] = 'Uçeirs';
+$txt['hidden'] = 'Ascuns';
+$txt['buddy'] = 'C\'haveir';
+$txt['buddies'] = 'C\'haveirs';
+$txt['most_online_ever'] = 'Pü sürlignhă zespäts schemp';
+$txt['most_online_today'] = 'Pü sürlignhă oxhi';
 
-$txt['merge_select_target_board'] = 'Select the target board of the merged topic';
-$txt['merge_select_poll'] = 'Select which poll the merged topic should have';
-$txt['merge_topic_list'] = 'Select topics to be merged';
-$txt['merge_select_subject'] = 'Select subject of merged topic';
-$txt['merge_custom_subject'] = 'Custom subject';
+$txt['merge_select_target_board'] = 'Selectetz-voi el scumpart entocat del topic ügnhat';
+$txt['merge_select_poll'] = 'Selectetz-voi qétsevol sondatx el topic ügnhat fostadra tir';
+$txt['merge_topic_list'] = 'Selectetz-voi topici àð ügnhar';
+$txt['merge_select_subject'] = 'Selectetz-voi subxhect da topic ügnhat';
+$txt['merge_custom_subject'] = 'Subxhect perziunaliçat';
 $txt['merge_enforce_subject'] = 'Change the subject of all the messages';
-$txt['merge_include_notifications'] = 'Include notifications?';
-$txt['merge_check'] = 'Merge?';
-$txt['merge_no_poll'] = 'No poll';
+$txt['merge_include_notifications'] = '¿Includar avisaziuns?';
+$txt['merge_check'] = '¿Ügnhar?';
+$txt['merge_no_poll'] = 'Aucün sondatx';
 
 $txt['response_prefix'] = 'Re: ';
-$txt['current_icon'] = 'Current Icon';
-$txt['message_icon'] = 'Message Icon';
+$txt['current_icon'] = 'Eicon corentic';
+$txt['message_icon'] = 'Eicon da mensatx';
 
-$txt['smileys_current'] = 'Current Smiley Set';
-$txt['smileys_none'] = 'No Smileys';
-$txt['smileys_forum_board_default'] = 'Forum/Board Default';
+$txt['smileys_current'] = 'Partidă d\'emoticons corentic';
+$txt['smileys_none'] = 'Aucün emoticons';
+$txt['smileys_forum_board_default'] = 'Zesfatxă da tagoror/scumpart';
 
-$txt['search_results'] = 'Search Results';
-$txt['search_no_results'] = 'Sorry, no matches were found';
+$txt['search_results'] = 'Resultaes dal çerçă';
+$txt['search_no_results'] = 'Apoloxhaes, aucün cópuis füvent trovats';
 
-$txt['totalTimeLogged1'] = 'Total time logged in: ';
-$txt['totalTimeLogged2'] = ' days, ';
-$txt['totalTimeLogged3'] = ' hours and ';
-$txt['totalTimeLogged4'] = ' minutes.';
-$txt['totalTimeLogged5'] = 'd ';
+$txt['totalTimeLogged1'] = 'Lungatà total dal seßiun: ';
+$txt['totalTimeLogged2'] = ' ziuăs, ';
+$txt['totalTimeLogged3'] = ' þoras es ';
+$txt['totalTimeLogged4'] = ' míuts.';
+$txt['totalTimeLogged5'] = 'z ';
 $txt['totalTimeLogged6'] = 'h ';
 $txt['totalTimeLogged7'] = 'm';
 
-$txt['approve_thereis'] = 'There is';
-$txt['approve_thereare'] = 'There are';
-$txt['approve_member'] = 'one member';
-$txt['approve_members'] = 'members';
-$txt['approve_members_waiting'] = 'awaiting approval.';
+$txt['approve_thereis'] = 'Ja';
+$txt['approve_thereare'] = 'J\'ont';
+$txt['approve_member'] = 'viens membreu, qi aschtepta';
+$txt['approve_members'] = 'membreux, qi aschteptent';
+$txt['approve_members_waiting'] = 'l\'approval.';
 
-$txt['notifyboard_turnon'] = 'Do you want a notification email when someone posts a new topic in this board?';
-$txt['notifyboard_turnoff'] = 'Are you sure you do not want to receive new topic notifications for this board?';
+$txt['notifyboard_turnon'] = '¿Veletz-voi ün telepost d\'avisaziun quand qe quálseviens posta ün noveu topic in acest scumpart?';
+$txt['notifyboard_turnoff'] = '¿Estetz-voi sigür qe voi non veletz reçeitar dels avisaziuns da noveux topici per acest scumpart?';
 
-$txt['activate_code'] = 'Your activation code is';
+$txt['activate_code'] = 'Voastră codă d\'activaziun isch:';
 
-$txt['find_members'] = 'Find Members';
-$txt['find_username'] = 'Name, username, or email address';
-$txt['find_buddies'] = 'Show Buddies Only?';
-$txt['find_wildcards'] = 'Allowed Wildcards: *, ?';
-$txt['find_no_results'] = 'No results found';
-$txt['find_results'] = 'Results';
-$txt['find_close'] = 'Close';
+$txt['find_members'] = 'Trovar membreux';
+$txt['find_username'] = 'Nómină, codă da sámbånd, eda adreçéu da telepost';
+$txt['find_buddies'] = '¿Solămint mostrar c\'haveirs?';
+$txt['find_wildcards'] = 'Metacaractréux permitats:: *, ?';
+$txt['find_no_results'] = 'Aucün resultaes trovadăs';
+$txt['find_results'] = 'Resultaes';
+$txt['find_close'] = 'Fermar';
 
-$txt['unread_since_visit'] = 'Show unread posts since last visit.';
-$txt['show_unread_replies'] = 'Show new replies to your posts.';
+$txt['unread_since_visit'] = 'Mostrar posts non lirats zespäts visitaziun pü recent.';
+$txt['show_unread_replies'] = 'Mostrar nouăs contestăs à voschtri posts.';
 
-$txt['change_color'] = 'Change Color';
+$txt['change_color'] = 'Cambiar colour';
 
-$txt['quickmod_delete_selected'] = 'Remove Selected';
+$txt['quickmod_delete_selected'] = 'Removar selecteschti';
 
 // In this string, don't use entities. (&amp;, etc.)
-$txt['show_personal_messages'] = 'You have received one or more new personal messages.\\nWould you like to open a new window to view them?';
+$txt['show_personal_messages'] = 'Voi tenetz reçeitat viens eda pü noveux mensatxen perziunais.\\n¿Veladretz-voi åpnar ünă nouă fenestră à risguardar-en?';
 
-$txt['previous_next_back'] = '&laquo; previous';
-$txt['previous_next_forward'] = 'next &raquo;';
+$txt['previous_next_back'] = '&laquo; previös';
+$txt['previous_next_forward'] = 'próxim &raquo;';
 
-$txt['movetopic_auto_board'] = '[BOARD]';
-$txt['movetopic_auto_topic'] = '[TOPIC LINK]';
-$txt['movetopic_default'] = 'This topic has been moved to ' . $txt['movetopic_auto_board'] . ".\n\n" . $txt['movetopic_auto_topic'];
+$txt['movetopic_auto_board'] = '[SCUMPART]';
+$txt['movetopic_auto_topic'] = '[LINC À TOPIC]';
+$txt['movetopic_default'] = 'Si tent movescu acest topic à ' . $txt['movetopic_auto_board'] . ".\n\n" . $txt['movetopic_auto_topic'];
 
-$txt['upshrink_description'] = 'Shrink or expand the header.';
+$txt['upshrink_description'] = 'Restreçar eda expançar l\'entestă.';
 
-$txt['mark_unread'] = 'Mark unread';
+$txt['mark_unread'] = 'Marcar non lirats';
 
-$txt['ssi_not_direct'] = 'Please don\'t access SSI.php by URL directly; you may want to use the path (%1$s) or add ?ssi_function=something.';
-$txt['ssi_session_broken'] = 'SSI.php was unable to load a session!  This may cause problems with logout and other functions - please make sure SSI.php is included before *anything* else in all your scripts!';
+$txt['ssi_not_direct'] = 'Sch\'o voi piaça, non aceßetz-voi SSI.php direct över URL; voi så’star veletz úçar el paþeu (%1$s) eda axhunara ?ssi_function=quálse\'cosă.';
+$txt['ssi_session_broken'] = '¡SSi.php non pognheva schciarxhar ünă seßiun! Ça put-estar cauça dels problüms cün el logut es altrăs funziuns - sch\'o voi piaça, ¡sigüretz-voi qe SSI.php isch includat avant *ingenc'hosă* d\'alter in toct da voschtri scripts!';
 
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
-$txt['preview_title'] = 'Preview post';
-$txt['preview_fetch'] = 'Fetching preview...';
-$txt['preview_new'] = 'New message';
-$txt['error_while_submitting'] = 'The following error or errors occurred while posting this message:';
-$txt['error_old_topic'] = 'Warning: this topic has not been posted in for at least %1$d days.<br />Unless you\'re sure you want to reply, please consider starting a new topic.';
+$txt['preview_title'] = 'Práivhischtar post';
+$txt['preview_fetch'] = 'Naudind práivhischtă...';
+$txt['preview_new'] = 'Noveu mensatx';
+$txt['error_while_submitting'] = 'Si encuntreva el(s) ärör(s) sovind(s) quand qe si posteva acest mensatx::';
+$txt['error_old_topic'] = 'Aviß: Neviens non tent postat in acest topic per à mhïus %1$d ziuăs.<br />Salva qe voi estetz sigür qe voi veletz rezirar, consideretz-voi començar ün noveu topic, sch\'o voi piaça..';
 
-$txt['split_selected_posts'] = 'Selected posts';
-$txt['split_selected_posts_desc'] = 'The posts below will form a new topic after splitting.';
-$txt['split_reset_selection'] = 'reset selection';
+$txt['split_selected_posts'] = 'Posts selectats';
+$txt['split_selected_posts_desc'] = 'Els posts d\'under formarha ün noveu topic osprei la ziviçaziun.';
+$txt['split_reset_selection'] = 'reseþar seleziun';
 
-$txt['modify_cancel'] = 'Cancel';
-$txt['mark_read_short'] = 'Mark Read';
+$txt['modify_cancel'] = 'Niþiliçar';
+$txt['mark_read_short'] = 'Marcar lirats';
 
-$txt['pm_short'] = 'My Messages';
-$txt['pm_menu_read'] = 'Read your messages';
-$txt['pm_menu_send'] = 'Send a message';
+$txt['pm_short'] = 'Vaes mensatxen';
+$txt['pm_menu_read'] = 'Lirar voschtri mensatxen';
+$txt['pm_menu_send'] = 'Envoxhiar ün mensatx';
 
-$txt['hello_member_ndt'] = 'Hello';
+$txt['hello_member_ndt'] = 'Azul';
 
-$txt['unapproved_posts'] = 'Unapproved Posts (Topics: %1$d, Posts: %2$d)';
+$txt['unapproved_posts'] = 'Posts non aprovats (topici: %1$d, posts: %2$d)';
 
-$txt['ajax_in_progress'] = 'Loading...';
+$txt['ajax_in_progress'] = 'Schciarxhind...';
 
-$txt['mod_reports_waiting'] = 'There are currently %1$d moderator reports open.';
+$txt['mod_reports_waiting'] = 'J\'ont actüellmint %1$d reports d\'admod åpnats.';
 
-$txt['view_unread_category'] = 'Unread Posts';
-$txt['verification'] = 'Verification';
-$txt['visual_verification_description'] = 'Type the letters shown in the picture';
-$txt['visual_verification_sound'] = 'Listen to the letters';
-$txt['visual_verification_request_new'] = 'Request another image';
+$txt['view_unread_category'] = 'Posts non lirats';
+$txt['verification'] = 'Reprovaziun';
+$txt['visual_verification_description'] = 'Taipetz-voi las letrăs qi sint mostradăs in el pictür';
+$txt['visual_verification_sound'] = 'Auscultetz-voi àls letrăs';
+$txt['visual_verification_request_new'] = 'Requestar ün altreu pictür';
 
 // Sub menu labels
-$txt['summary'] = 'Summary';
-$txt['account'] = 'Account Settings';
-$txt['forumprofile'] = 'Forum Profile';
+$txt['summary'] = 'Resümadă';
+$txt['account'] = 'Setatxen d\'acaunteu';
+$txt['forumprofile'] = 'Profil da tagoror';
 
-$txt['modSettings_title'] = 'Features and Options';
-$txt['package'] = 'Package Manager';
-$txt['errlog'] = 'Error Log';
-$txt['edit_permissions'] = 'Permissions';
-$txt['mc_unapproved_attachments'] = 'Unapproved Attachments';
-$txt['mc_unapproved_poststopics'] = 'Unapproved Posts and Topics';
-$txt['mc_reported_posts'] = 'Reported Posts';
-$txt['modlog_view'] = 'Moderation Log';
-$txt['calendar_menu'] = 'View Calendar';
+$txt['modSettings_title'] = 'Featürăs es opziuns';
+$txt['package'] = 'Acurat da pacatx';
+$txt['errlog'] = 'Log d\'ärör';
+$txt['edit_permissions'] = 'Permiçais';
+$txt['mc_unapproved_attachments'] = 'Estacadăs non aprovadăs';
+$txt['mc_unapproved_poststopics'] = 'Posts es topici non aprovats';
+$txt['mc_reported_posts'] = 'Posts reportats';
+$txt['modlog_view'] = 'Log da moderaziun';
+$txt['calendar_menu'] = 'Risguardar calendriereu';
 
 //!!! Send email strings - should move?
-$txt['send_email'] = 'Send Email';
-$txt['send_email_disclosed'] = 'Note this will be visible to the recipient.';
-$txt['send_email_subject'] = 'Email Subject';
+$txt['send_email'] = 'Envoxhiar telepost';
+$txt['send_email_disclosed'] = 'Trac\'hetz-voi q\'acest serà vidaval àl reçeiteir.';
+$txt['send_email_subject'] = 'Subxhect da telepost';
 
-$txt['ignoring_user'] = 'You are ignoring this user.';
-$txt['show_ignore_user_post'] = 'Show me the post.';
+$txt['ignoring_user'] = 'Voi ignhoretz acest uçeir.';
+$txt['show_ignore_user_post'] = 'Mostra-me el post.';
 
-$txt['spider'] = 'Spider';
-$txt['spiders'] = 'Spiders';
+$txt['spider'] = 'Aragnhă';
+$txt['spiders'] = 'Aragnhăs';
 $txt['openid'] = 'OpenID';
 
-$txt['downloads'] = 'Downloads';
-$txt['filesize'] = 'Filesize';
-$txt['subscribe_webslice'] = 'Subscribe to Webslice';
+$txt['downloads'] = 'Transreçaifadăs';
+$txt['filesize'] = 'Grülteçă da fischeir';
+$txt['subscribe_webslice'] = 'Subscríuar à Webslice';
 
 // Restore topic
-$txt['restore_topic'] = 'Restore Topic';
-$txt['restore_message'] = 'Restore';
-$txt['quick_mod_restore'] = 'Restore Selected';
+$txt['restore_topic'] = 'Restorniar topic';
+$txt['restore_message'] = 'Restorniar';
+$txt['quick_mod_restore'] = 'Restorniar selectats';
 
 // Editor prompt.
-$txt['prompt_text_email'] = 'Please enter the email address.';
-$txt['prompt_text_ftp'] = 'Please enter the ftp address.';
-$txt['prompt_text_url'] = 'Please enter the URL you wish to link to.';
-$txt['prompt_text_img'] = 'Enter image location';
+$txt['prompt_text_email'] = 'Entretz-voi l\'adreçéu da telepost, sch\'o voi piaça.';
+$txt['prompt_text_ftp'] = 'Entretz-voi l\'adreçéu da ftp, sch\'o voi piaça.';
+$txt['prompt_text_url'] = 'Entretz-voi l\'URL à qet voi veletz lincar, sch\'o voi piaça.';
+$txt['prompt_text_img'] = 'Entrar locaziun d\'imatx';
 
 // Escape any single quotes in here twice.. 'it\'s' -> 'it\\\'s'.
-$txt['autosuggest_delete_item'] = 'Delete Item';
+$txt['autosuggest_delete_item'] = 'Zeletar item';
 
 // Debug related - when $db_show_debug is true.
-$txt['debug_templates'] = 'Templates: ';
-$txt['debug_subtemplates'] = 'Sub templates: ';
-$txt['debug_language_files'] = 'Language files: ';
-$txt['debug_stylesheets'] = 'Style sheets: ';
-$txt['debug_files_included'] = 'Files included: ';
+$txt['debug_templates'] = 'Modeis: ';
+$txt['debug_subtemplates'] = 'Submodeis: ';
+$txt['debug_language_files'] = 'Fischeirs da glheþ: ';
+$txt['debug_stylesheets'] = 'Lençois da stil: ';
+$txt['debug_files_included'] = 'Fischeirs includats: ';
 $txt['debug_kb'] = 'KB.';
-$txt['debug_show'] = 'show';
+$txt['debug_show'] = 'risguardar';
 $txt['debug_cache_hits'] = 'Cache hits: ';
-$txt['debug_cache_seconds_bytes'] = '%1$ss - %2$s bytes';
-$txt['debug_cache_seconds_bytes_total'] = '%1$ss for %2$s bytes';
-$txt['debug_queries_used'] = 'Queries used: %1$d.';
-$txt['debug_queries_used_and_warnings'] = 'Queries used: %1$d, %2$d warnings.';
-$txt['debug_query_in_line'] = 'in <em>%1$s</em> line <em>%2$s</em>, ';
-$txt['debug_query_which_took'] = 'which took %1$s seconds.';
-$txt['debug_query_which_took_at'] = 'which took %1$s seconds at %2$s into request.';
-$txt['debug_show_queries'] = '[Show Queries]';
-$txt['debug_hide_queries'] = '[Hide Queries]';
+$txt['debug_cache_seconds_bytes'] = '%1$ss - %2$s octets';
+$txt['debug_cache_seconds_bytes_total'] = '%1$ss per %2$s octets';
+$txt['debug_queries_used'] = 'Requestăs uçadăs: %1$d.';
+$txt['debug_queries_used_and_warnings'] = 'Requestăs uçadăs: %1$d, %2$d avißen.';
+$txt['debug_query_in_line'] = 'in <em>%1$s</em> lignhă <em>%2$s</em>, ';
+$txt['debug_query_which_took'] = 'qi preindeva %1$s secunds.';
+$txt['debug_query_which_took_at'] = 'qi preindeva %1$s secunds à %2$s ainciün requestă.';
+$txt['debug_show_queries'] = '[Mostrar requestăs]';
+$txt['debug_hide_queries'] = '[Ascunçar requestăs]';
 
 ?>
