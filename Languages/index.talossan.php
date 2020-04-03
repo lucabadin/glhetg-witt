@@ -163,8 +163,8 @@ $txt['location'] = 'Locaziun';
 $txt['gender'] = 'Xhendreu';
 $txt['date_registered'] = 'Däts d\'anuntziă';
 
-$txt['recent_view'] = 'View the most recent posts on the forum.';
-$txt['recent_updated'] = 'is the most recently updated topic';
+$txt['recent_view'] = 'Risguardar els posts els pü recents sür el tagoror.';
+$txt['recent_updated'] = 'isch el topic el pü recentmint uppdatat.';
 
 $txt['male'] = 'Masleu';
 $txt['female'] = 'Femeglheu';
