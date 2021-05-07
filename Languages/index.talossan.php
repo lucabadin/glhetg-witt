@@ -283,7 +283,7 @@ $txt['by'] = 'par';
 $txt['hours'] = 'þorăs';
 $txt['days_word'] = 'ziuăs';
 
-$txt['newest_member'] = ', ár pü noveu membreu.';
+$txt['newest_member'] = ', ar pü noveu membreu.';
 
 $txt['search_for'] = 'Çerçar';
 
@@ -658,8 +658,8 @@ $txt['ssi_session_broken'] = '¡SSi.php non pognheva schciarxhar ünă seßiun! 
 $txt['preview_title'] = 'Práivhischtar post';
 $txt['preview_fetch'] = 'Naudind práivhischtă...';
 $txt['preview_new'] = 'Noveu mensatx';
-$txt['error_while_submitting'] = 'Si encuntreva el(s) ärör(s) sovind(s) quand qe si posteva acest mensatx::';
-$txt['error_old_topic'] = 'Aviß: Neviens non tent postat in acest topic per à mhïus %1$d ziuăs.<br />Salva qe voi estetz sigür qe voi veletz rezirar, consideretz-voi començar ün noveu topic, sch\'o voi piaça..';
+$txt['error_while_submitting'] = 'Si encuntreva el(s) ärör(s) sovind(s) quand qe si posteva acest mensatx:';
+$txt['error_old_topic'] = 'Aviß: Neviens non tent postat in acest topic per à mhïus %1$d ziuăs.<br />Salva qe voi estetz sigür qe voi veletz rezirar, consideretz-voi començar ün noveu topic, sch\\\'o voi piaça..';
 
 $txt['split_selected_posts'] = 'Posts selectats';
 $txt['split_selected_posts_desc'] = 'Els posts d\'under formarha ün noveu topic osprei la ziviçaziun.';
