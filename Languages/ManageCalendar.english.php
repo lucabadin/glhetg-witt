@@ -1,45 +1,45 @@
 <?php
 // Version: 2.0; ManageCalendar
 
-$txt['calendar_desc'] = 'From here you can modify all aspects of the calendar.';
+$txt['calendar_desc'] = 'D\'aicì voi pevetz modificar toct i äspectsilor del calendriereu.';
 
 // Calendar Settings
-$txt['calendar_settings_desc'] = 'Here you can enable the calendar, and determine the settings that it should use.';
-$txt['save_settings'] = 'Save Settings';
-$txt['groups_calendar_view'] = 'Membergroups allowed to view the calendar';
-$txt['groups_calendar_post'] = 'Membergroups allowed to create events';
-$txt['groups_calendar_edit_own'] = 'Membergroups allowed to edit their own events';
-$txt['groups_calendar_edit_any'] = 'Membergroups allowed to edit any events';
-$txt['setting_cal_enabled'] = 'Enable the calendar';
-$txt['setting_cal_daysaslink'] = 'Show days as links to \'Post Event\'';
+$txt['calendar_settings_desc'] = 'Aicì voi pevetz endünamar el calendriereu, es zesterminar els setatxen qe ça fostadra úçar.';
+$txt['save_settings'] = 'Guardar setatxen';
+$txt['groups_calendar_view'] = 'Grupăs da membreux qi povent risguardar el calendriereu';
+$txt['groups_calendar_post'] = 'Grupăs da membreux qi povent creatar dels evints';
+$txt['groups_calendar_edit_own'] = 'Grupăs da membreux qi povent editar sieux propreux evints';
+$txt['groups_calendar_edit_any'] = 'Grupăs da membreux qi povent editar quáisevois evints';
+$txt['setting_cal_enabled'] = 'Endünamar el calendriereu';
+$txt['setting_cal_daysaslink'] = 'Mostrar ziuăs come lincs à \'Postar evint\'';
 $txt['setting_cal_days_for_index'] = 'Max days in advance on board index';
-$txt['setting_cal_showholidays'] = 'Show holidays';
-$txt['setting_cal_showbdays'] = 'Show birthdays';
-$txt['setting_cal_showevents'] = 'Show events';
-$txt['setting_cal_show_never'] = 'Never';
-$txt['setting_cal_show_cal'] = 'In calendar only';
-$txt['setting_cal_show_index'] = 'On board index only';
-$txt['setting_cal_show_all'] = 'On board index and calendar';
-$txt['setting_cal_defaultboard'] = 'Default board to post events in';
-$txt['setting_cal_allow_unlinked'] = 'Allow events not linked to posts';
-$txt['setting_cal_minyear'] = 'Minimum year';
-$txt['setting_cal_maxyear'] = 'Maximum year';
-$txt['setting_cal_allowspan'] = 'Allow events to span multiple days';
-$txt['setting_cal_maxspan'] = 'Max number of days an event can span';
-$txt['setting_cal_showInTopic'] = 'Show linked events in topic display';
+$txt['setting_cal_showholidays'] = 'Mostrar feschtăs';
+$txt['setting_cal_showbdays'] = 'Mostrar nadaliçăs';
+$txt['setting_cal_showevents'] = 'Mostrar evints';
+$txt['setting_cal_show_never'] = 'Nunca';
+$txt['setting_cal_show_cal'] = 'Solămint in calendriereu';
+$txt['setting_cal_show_index'] = 'Solămint sür index da scumpart';
+$txt['setting_cal_show_all'] = 'Sür index da scumpart es calendriereu';
+$txt['setting_cal_defaultboard'] = 'Scumpart da standard in qet si posta els evints';
+$txt['setting_cal_allow_unlinked'] = 'Permitar evints qi non sint lincats àls posts';
+$txt['setting_cal_minyear'] = 'Anneu minimüm';
+$txt['setting_cal_maxyear'] = 'Anneu  maximüm';
+$txt['setting_cal_allowspan'] = 'Permitar evints qi lastent per mutipais ziuăs';
+$txt['setting_cal_maxspan'] = 'Númerul maximüm da ziuăs da zuraziun d\'evint';
+$txt['setting_cal_showInTopic'] = 'Mostrar evints lincats in zesplegă da topic';
 
 // Adding/Editing/Viewing Holidays
-$txt['manage_holidays_desc'] = 'From here you can add and remove holidays from your forum calendar.';
-$txt['current_holidays'] = 'Current Holidays';
-$txt['holidays_title'] = 'Holiday';
-$txt['holidays_title_label'] = 'Title';
-$txt['holidays_delete_confirm'] = 'Are you sure you wish to remove these holidays?';
-$txt['holidays_add'] = 'Add New Holiday';
-$txt['holidays_edit'] = 'Edit Existing Holiday';
-$txt['holidays_button_add'] = 'Add';
-$txt['holidays_button_edit'] = 'Edit';
-$txt['holidays_button_remove'] = 'Remove';
-$txt['holidays_no_entries'] = 'There are currently no holidays configured.';
-$txt['every_year'] = 'Every Year';
+$txt['manage_holidays_desc'] = 'D\'aicì voi pevetz axhuntar es removar dals feschtăs da voastra calendriereu da tagoror.';
+$txt['current_holidays'] = 'Feschtăs corentici';
+$txt['holidays_title'] = 'Feschtă';
+$txt['holidays_title_label'] = 'Titlă';
+$txt['holidays_delete_confirm'] = '¿Estetz-voi sigür qe voi veletz removar acestilor feschtăs?';
+$txt['holidays_add'] = 'Axhuntar nouă feschtă';
+$txt['holidays_edit'] = 'Editar feschtă existind';
+$txt['holidays_button_add'] = 'Axhuntar';
+$txt['holidays_button_edit'] = 'Editar';
+$txt['holidays_button_remove'] = 'Removar';
+$txt['holidays_no_entries'] = 'Corenticmint non j\'ont aucün feschtăs configüradăs.';
+$txt['every_year'] = 'Cadascu anneu';
 
 ?>
