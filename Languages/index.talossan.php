@@ -445,7 +445,7 @@ $txt['events_upcoming'] = 'Evints arivinds:';
 // Prompt for holidays in the calendar, leave blank to just display the holiday's name.
 $txt['calendar_prompt'] = '';
 $txt['calendar_month'] = 'Mes:';
-$txt['calendar_year'] = 'År:';
+$txt['calendar_year'] = 'Anneu:';
 $txt['calendar_day'] = 'Ziuă:';
 $txt['calendar_event_title'] = 'Titlă d\'evint';
 $txt['calendar_event_options'] = 'Opziuns d\'evint';
